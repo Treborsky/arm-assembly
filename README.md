@@ -1,5 +1,5 @@
 # Assembly programming
 Some basic assembly projects to help me learn ARM assembly
- - [ ] hello world
+ - [x] hello world
  - [ ] number addition
 

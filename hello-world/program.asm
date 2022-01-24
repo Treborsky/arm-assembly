@@ -1,4 +1,5 @@
 # Hello world program
+
 .global _start
 .section .text
 
@@ -9,6 +10,7 @@
 // write hello world do stdout (fd 1)
 
 _start:
+	mov r7, #0x4
 	mov r0, #1		// load fd to r0 (file descriptor 1 -> stdout)
 	ldr r1, =message	// load message to r1 (write buffer)
 	mov r2, #13		// load message size to r2 (write buffer size)
